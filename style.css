@@ -1,0 +1,109 @@
+h1{
+    color:red;
+}
+nav{
+    background-color: rgb(110, 204, 225);
+    display: flex;
+    justify-content:  space-evenly;
+}
+.pancake{
+    color: brown;
+}
+li{
+    color: transparent;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    background-color: rgb(236, 243, 243);
+}
+.order{
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu{
+
+    margin: 10px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+ border-radius: 30px ;
+}
+.menu img{
+    width: 100%;
+    border-radius: 30px;
+}
+.image{
+display: flex;
+}
+.price button{
+    background-color: green;
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 50%;
+}
+.price button:hover{
+    background-color: white;
+    color: black;
+}
+
+.dog{
+    width: 50%;
+    margin: 10px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+.dog img{
+    width: 100%;
+    border-radius: 30px;
+}
+.pig{
+    display: flex;
+}
+.yam button{
+    background-color: blue;
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 50%;
+}
+.yam button:hover{
+    background-color: white;
+    color: black;
+}
+footer{
+    height: 250px;
+    background-color: aqua;
+}
+address{
+    color: red;
+    text-shadow: 1px 1px 1px black;
+}
+footer .copywright{
+    color: rgb(219, 3, 3);
+    text-align: center;
+}
+footer span{
+    display: flex;
+    justify-content: center;
+}
+span i{
+    margin: 5px;
+}
+@media screen and (max-width:785px) {
+    .order{
+        display: grid;
+        text-align: center;
+    
+    }
+}
